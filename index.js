@@ -17,7 +17,7 @@ const {
 
 
 // Server
-app.listen(3001, () => console.log("Servidor encendido!"));
+app.listen(3000, () => console.log("Servidor encendido!"));
 
 // Middlewares
 app.use(express.urlencoded({ extended: false }));
